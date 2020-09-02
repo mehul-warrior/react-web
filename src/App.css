@@ -3,36 +3,71 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  
+  padding: 15px;
+	height: 300px;
+	width: 250px;
+  overflow: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo2{
+  float: left;
 }
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-intro {
+  font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.clearfix { overflow: auto; 
+
+}
+
+#div {
+
+	border: 3px;
+	padding: 5px;
+     }
+
+.font {
+
+  font-family: times new roman;
+  font-size: 25px;
+}
+
+
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+#react-logo {
+  color: #00d8ff;
+}
+#imdb-logo {
+  color: #f5de50;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #movies .col-md-3 img {
+    height: 240px;
   }
 }
+

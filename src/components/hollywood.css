@@ -1,0 +1,24 @@
+.clearfix { overflow: auto; 
+    
+
+}
+
+#div {
+
+	border: 3px;
+    padding: 5px;
+    background-color: gold;
+     }
+
+.font {
+
+	font-family: times new roman;
+}
+
+.img2 {float: left;}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
